@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Noto+Sans+KR:wght@400;700&family=Poppins:ital,wght@0,300;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <style>
+      * {
+        font-family: "Gamja Flower", sans-serif;
+        font-size: 20px;
+      }
+      div {
+        border: 1px dotted orange;
+        padding: 20px;
+        background-color: antiquewhite;
+      }
+      #subject {
+        font-size: 30px;
+        animation: change 6s infinite;
+      }
+      @keyframes change {
+        25% {
+          color: aqua;
+        }
+        50% {
+          color: blueviolet;
+        }
+        100% {
+          color: yellowgreen;
+        }
+      }
+      div > span {
+        font-size: 35px;
+        text-decoration: underline;
+        animation: fontsize 8s infinite;
+        animation: gradientAnimation 6s linear infinite;
+      }
+      input {
+        text-decoration: none;
+      }
+      input:hover {
+        background-color: #945003;
+        color: lightskyblue;
+        border-radius: 50%;
+      }
+      #comment {
+        display: none;
+      }
+      @keyframes fontsize {
+        25% {
+          font-size: 36px;
+        }
+        50% {
+          font-size: 36.5px;
+        }
+        75% {
+          font-size: 36px;
+        }
+        100% {
+          font-size: 35.5px;
+        }
+      }
+      @keyframes gradientAnimation {
+        0% {
+          color: #a301a3;
+        }
+        50% {
+          color: #015555;
+        }
+        100% {
+          color: #945003;
+        }
+      }
+      img {
+        position: absolute;
+        top: 60%;
+        left: 20%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <p id="subject">문제2023-10-19</p>
+      <span>display</span>&nbsp;에는 여러가지 속성이 있는데요
+      <span>none block inline inline-block flex</span> &nbsp;등등 <br />
+      <span> visibility</span>&nbsp;에도
+      <span> visible hidden collapse </span>&nbsp;등의 속성이 있어요<br />
+      <span>Q.</span> <span>display의 none</span>과
+      <span>visibility의 hidden </span>의 차이점을 설명해주세요
+    </div>
+    <br />
+    <input type="button" value="정답보기" id="button" />
+    <br />
+    <br />
+    <div id="comment">
+      해설<br />
+      2가지 기능 모두 화면에 대상이 보이지 않게 만드는데요<br />
+      disply none은 태그가 화면에서 사라 지지만 <br />
+      visibility hidden 내용만 보이지 않을뿐 태그는 유지하고 있어 공간이
+      남는다는 것입니다.<br />
+      <br />
+      <img src="picture.png" alt="" />
+      display none 속성
+      <p>안녕하세요</p>
+      <p style="display: none">안녕하세요</p>
+      <p>안녕하세요</p>
+      <br />
+      visibility hidden 속성
+      <p>안녕하세요</p>
+      <p style="visibility: hidden">안녕하세요</p>
+      <p>안녕하세요</p>
+      감사감사
+    </div>
+    <script>
+      const button = document.getElementById("button");
+      button.addEventListener("click", function () {
+        const comment = document.getElementById("comment");
+        comment.style.display = "block";
+      });
+    </script>
+  </body>
+</html>

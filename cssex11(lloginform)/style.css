@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+
+}
+
+label {
+  display: block;
+  margin: 16px 0 8px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #2c2c2c;
+}
+
+input {
+  width: 100%;
+  display: block;
+  padding: 16px 24px;
+  margin: 8px 0;
+  border: 1px solid #d1d1d1;
+}
+
+button {
+  border: none;
+  display: block;
+  padding: 16px;
+  width: 100%;
+  margin: 24px 0;
+  background-color: #2c2c2c;
+  color: white;
+}
+
+form {
+  margin: 0 auto;
+  margin-top: 120px;
+  width: 360px;
+
+}
+
+h1 {
+  margin: 24px 0;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+
+#passwordSearchDiv {
+  text-align: right;
+}
+
+#passwordSearchDiv>a {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ababab;
+}
+
+#joindiv {
+  text-align: center;
+  color: #ababab;
+}
+
+button {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+#joindiv>a {
+  font-size: 14px;
+  font-weight: 400;
+  color: #2c2c2c;
+}
+
+input::placeholder {
+  color: #ababab;
+}

@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%
+}
+
+body {
+
+    font-family: Poppins, 'Noto Sans KR', sans-serif;
+    margin: 0 auto;
+}
+
+#header {
+    background: url(bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 675px;
+}
+
+#headersubject {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 12px 0 0 40px;
+
+}
+
+#headercontents {
+    width: 720px;
+
+}
+
+.contentDiv {
+    margin: 0 auto;
+}
+
+#headercontents p:nth-child(1) {
+    font-size: 20px;
+    font-weight: 500;
+    color: #8287a4;
+    margin-top: 80px;
+}
+
+#headercontents p:nth-child(2),
+#headercontents p:nth-child(3) {
+    font-size: 56px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 12px;
+}
+
+#headercontents p:last-child {
+    font-size: 14px;
+    font-weight: 400;
+    color: #8287a4;
+    margin: 14px 0 280px
+}
+
+.bonmun {
+    width: 720px;
+    margin: 0 auto;
+}
+
+
+
+.div1 h1 {
+    color: #161346;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 74px 0 42px;
+}
+
+.div1 img {
+    width: 100%;
+    border-radius: 24px;
+}
+
+.div1 p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #4c497b;
+    margin: 32px 0
+}
+
+.div1 div {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 64px;
+}
+#div1{background-color: #f1f4fa;}
+.div1 div a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #413c91;
+    padding: 16px 32px;
+    border-radius: 8px;
+}
+
+#footer {
+    background-color: #161346;
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 64px;
+}
+
+#footer h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0 0 8px 0;
+}
+
+#footer div {
+    width: 100%;
+}
+
+#footer div:nth-child(2) {
+    font-size: 16px;
+    font-weight: 400;
+    color: #8287a4;
+    margin-bottom: 32px;
+}
+
+#footer div:last-child {
+    padding: 16px 32px;
+}
+
+#footer div:last-child>a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #413c91;
+    padding: 16px 32px;
+    border-radius: 9999px;
+}
+
+#footer2 {
+    background-color: #120f3f;
+    padding: 32px 0;
+}
+
+#footer2 div {
+    width: 720px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #d9d9d9
+}
+
