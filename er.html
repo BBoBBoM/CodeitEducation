@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="film">좋아하는 영화 장르</label>
+<label>
+  <input type="checkbox" name="film" value="action">
+  액션
+</label>
+<label>
+  <input type="checkbox" name="film" value="comedy">
+  코미디
+</label>
+<label>
+  <input type="checkbox" name="film" value="romance">
+  로맨스
+</label>
+<input name="birthdate" type="date">
+<input name="avatar" type="file" accept=".png,.jpg" multiple>
+<!--accept : 취급 가능 파일명, multiple : 다중선택-->
+<input name="email" type="email">@
+<select name="" id=""><option value="">1</option><option value="">2</option><option value="">3</option><option value="">4</option></select>
+<input type="number">
+
+<!-- 100에서 1000사이 -->
+<input type="number" min="100" max="1000">
+
+<!-- 100에서 1000사이, 버튼을 눌렀을 때 100씩 증가, 감소 -->
+<input type="number" min="100" max="1000" step="100">
+<input id="very-bad" name="feeling" value="0" type="radio">
+<label for="very-bad">아주 나쁨</label>
+<input id="bad" name="feeling" value="1" type="radio">
+<label for="bad">나쁨</label>
+<input id="soso" name="feeling" value="2" type="radio">
+<label for="soso">보통</label>
+<input id="good" name="feeling" value="3" type="radio">
+<label for="good">좋음</label>
+<input id="very-good" name="feeling" value="4" type="radio">
+<label for="very-good">아주 좋음</label>
+<br>
+<label for="signup-feeling">현재 기분</label>
+<input id="signup-feeling" name="feeling" min="1" min="10" type="range">
+<br>
+<textarea name="content"></textarea>
+</body>
+</html>

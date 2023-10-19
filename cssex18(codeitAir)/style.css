@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #f8f8f8;
+}
+
+#headerBackground {
+    background-color: #11172b;
+}
+
+.centerDiv {
+    width: 640px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+#header p {
+    margin: 12px;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 300;
+    color: #ffffff;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#header p span {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#header img {
+    height: 24px;
+    margin-right: 12px;
+}
+
+#ticketHead {
+    background-color: #ebeff8;
+    border-radius: 8px;
+    padding: 24px 32px;
+    margin-bottom: 20px;
+}
+
+#ticketHead #depart {
+    font-size: 16px;
+    color: #b3bdd5;
+    margin-bottom: 8px;
+}
+
+#ticketHead img {
+    height: 16px;
+    margin-right: 8px;
+}
+
+#ticketHead h1 {
+    font-size: 32px;
+    font-size: 32px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#Dday {
+    background-color: #ffffff;
+    margin-top: 24px;
+    padding: 8px 24px;
+    font-size: 16px;
+    color: #000000;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+#ticketHead p {
+    margin-top: 16px;
+    font-size: 12px;
+    color: #b3bdd5;
+
+}
+
+hr {
+    border: 0;
+    border-top: 1px dashed #b6bfd3;
+}
+
+.ticket {
+    border-radius: 8px;
+    background-color: #ffffff;
+    margin: 20px 0;
+    padding: 8px 24px 24px;
+}
+
+.ticketNum {
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Titillium Web', sans-serif;
+    color: #16bf97;
+    margin-bottom: 8px;
+}
+
+.hrLine {
+    border: 0;
+    border-bottom: 1px solid #dbf1ec;
+    margin-bottom: 26px;
+}
+
+.font {
+    margin: 4px 0;
+    font-size: 12px;
+    font-weight: 500;
+    color: #b3bdd5;
+}
+
+.departTime span {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1a345e;
+}
+
+.departTime >img{
+    width: 18px;
+    height:16px;
+    margin: 0 10px ;
+}
+.airplaneNum{font-size: 16px;color:#0b1f66;margin-top: 4px;}
+.spanDiv{text-align: right;}
+.spanDiv span{color: #1a345e;font-size: 14px;font-weight: 500;}
+.spanDiv span:nth-child(1){margin-right: 24px;}
+.spanDiv span:nth-child(2){margin-right: 24px;}
+#soldout{color : #dce0e8}

@@ -1,0 +1,39 @@
+.gnb {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  #logo {
+    height: 20px;
+  }
+  
+  ul.menu {
+    display: inline-block;
+    /* img와 같은 라인에 맞추려고 얘없으면 한줄 내려감 */
+   padding: 0;
+   margin: 0;
+  }
+  
+  ul.menu > li { 
+    text-align: center;
+    list-style: none;
+    
+    display: inline-block;
+    /* 목록들이 기본적으로 block형태인데 inline 형태로 만들어 배치하기 위해? */
+    margin: 16px;
+    padding: 10px;
+    border: 1px solid blueviolet;
+    font-style: italic;
+    border-radius: 50%;
+    /* 여기에 코드를 작성하세요 */
+  }
+  ul.menu li:nth-child(2n-1){
+    background-color: brown;
+    color: burlywood;
+    border: 0;
+  }
+  
+  .gnb,
+  .main {
+    padding: 16px;
+  }
+  

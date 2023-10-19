@@ -1,0 +1,20 @@
+html ol ul
+ol 순서를 기반 type 로 여러가지로 변경 가능
+ul 순서없음 list style 로 여러가지 형태로 바꿀수 있음
+list-style : none 없애고 
+본인이 원하는 이미지도 삽입가능
+list-style이라는 CSS 속성으로도 바꿀 수 있습니다.
+
+ul {
+  list-style: disc; /* 동그라미 */
+}
+기호를 없애고 싶을 때는 none을 사용합니다.
+
+ul {
+  list-style: none; 
+}
+리스트 항목을 한 줄로 쓰고 싶으면 display: inline-block을 활용할 수도 있습니다. 내가 원하는 디자인으로 보여주면서도 HTML에서는 목록이라는 의미를 분명하게 나타낼 수 있습니다.
+
+ul > li {
+  display: inline-block;
+}

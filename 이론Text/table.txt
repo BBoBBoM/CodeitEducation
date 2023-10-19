@@ -1,0 +1,47 @@
+table
+table 전체
+	thead머리
+		tr 제목급
+			th 내용급
+			th
+			th
+	tbody몸통
+		tr
+			td
+			td
+			td
+	tfoot다리
+		tr
+border 적용가능
+border-collapse:collapse; 테두리 사이 간격 조정 
+border-spacing: 15px 테두리끼리의 간격
+
+
+태 그
+설 명
+<table>
+테이블을 정의
+<tr>
+테이블 행(row)을 정의한 태그입니다.
+<td>
+테이블 열(column)을 정의한 태그입니다.
+* 속성 : colspan(여러 열을 합침), rowspan(여러 행을 합침)
+<th>
+테이블 표제를 정의한 태그입니다.
+* 속성 : colsapn(여러 열을 합침), rowspan(여러 행을 합침), scope(셀의 범위를 나타냄)
+
+제목셀- 텍스트가 두꺼워지고 가운데 정렬된다.
+<caption>	 <table> 태그의 제목을 나타내는 태그입니다.
+그 표 상단에 중앙 정렬로 나타남.
+<colgroup>	<table> 태그의 내의 열을 그룹화 시키기 위한 태그입니다.
+열의 넓이를 쉽게 조작하기 위해서 사용합니다. 
+<col>	<table> 태그에서 열을 정렬 시키기 위한 태그입니다.  
+<thead>	<table> 태그의 머리 부분 역할을 하는 태그입니다. 주로 <th> 태그와 함께 사용됩니다. 
+<tbody>	<table> 태그의 본문 역할을 하는 태그입니다. 표의 본문을 정의합니다. 
+<tfoot>	<table> 태그의 꼬리 부분 역할을 하는 태그입니다. 주로 데이터의 통계수치가 있을 경우 사용됩니다. 
+* <tr>을 감싸는 상위 태그<thead><thead><tfoot>로 헤더, 본문, 푸터로 영역을 나눠 사용한다.
+* css속성들
+            /*border-spacing: 0; 표 간격을 없앤다. *간격조절할때 사용*/
+            /*border-collapse: collapse; 겹쳐서 보이게 */
+            /*vertical-align: bottom; 셀안의 정렬을한다. */
+[출처] html #02 table의 모든 것!! CSS 설정/합치기 rowspan colspan /colgroup/caption|작성자 기니
