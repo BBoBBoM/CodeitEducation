@@ -22,9 +22,7 @@
         border: 1px solid black;
         border-radius: 50%;
       }
-
-/*
-      li:nth-child(2n-1) {
+      .li:nth-child(2n-1) {
         background-color: brown;
         color: white;
       }
@@ -36,14 +34,14 @@
       li:last-child:hover {
         background-color: blue;
         color: yellow;
-      }*/
+      }
       #codeDiv {
         display: none;
       }
       #seconddiv {
         display: none;
       }
-      #thirddiv{
+      #thirddiv {
         display: none;
       }
       /* 여기다 이어서 써주세요 */
@@ -63,11 +61,11 @@
     </p>
     <nav>
       <ul>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>TypeScript</li>
+        <li class="li">HTML5</li>
+        <li class="li">CSS3</li>
+        <li class="li">JavaScript</li>
+        <li class="li">React</li>
+        <li class="li">TypeScript</li>
       </ul>
     </nav>
 
@@ -104,8 +102,7 @@
         li:last-child:hover {
           background-color: blue;
           color: yellow;
-        }</pre
-      >
+        }</pre>
     </div>
     <script>
       const button = document.getElementById("button");
@@ -119,20 +116,24 @@
       });
 
       const nextbutton = document.getElementById("nextbutton");
-      const seconddiv = document.getElementById("seconddiv")
-      nextbutton.addEventListener("click",function(){
-        if(seconddiv.style.display==="none"){
-            seconddiv.style.display="block"
-        }else{seconddiv.style.display="none"}
-      })
+      const seconddiv = document.getElementById("seconddiv");
+      nextbutton.addEventListener("click", function () {
+        if (seconddiv.style.display === "none") {
+          seconddiv.style.display = "block";
+        } else {
+          seconddiv.style.display = "none";
+        }
+      });
 
-     const endbutton = document.getElementById("endbutton")
-     const thirddiv = document.getElementById("thirddiv")
-     endbutton.addEventListener("click",function(){
-        if(thirddiv.style.display==="none"){
-            thirddiv.style.display="block"
-        }else{thirddiv.style.display="none"}
-     })
+      const endbutton = document.getElementById("endbutton");
+      const thirddiv = document.getElementById("thirddiv");
+      endbutton.addEventListener("click", function () {
+        if (thirddiv.style.display === "none") {
+          thirddiv.style.display = "block";
+        } else {
+          thirddiv.style.display = "none";
+        }
+      });
     </script>
   </body>
 </html>

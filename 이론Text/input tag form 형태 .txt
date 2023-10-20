@@ -1,0 +1,10 @@
+input tag form 형태 
+placeholder
+autocomplete 자동완성 기능? 이전 입력한 기록이 있으면 찾아줌 email
+autocomplete = "on(email, tel)" 과 같이 해줘야함
+required 필수 입력사항 비어있으면 전송이 안됨 
+
+
+form 
+레이블의 for 과 input의 id 값과 일치해야함 그래야 label 을 click 했을시 
+값을 넘길때는 input의 name 값을 가지고 넘어가니 주의 하세요 

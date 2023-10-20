@@ -50,17 +50,3 @@ html {
     text-align: center;
   }
   #password::placeholder{font-size: 100px;}
-
-  li:nth-child(2n-1) {
-    background-color: brown;
-    color: white;
-  }
-  li:nth-child(2n) {
-    background-color: yellow;
-    color: blue;
-  }
-  li:first-child:hover,
-  li:last-child:hover {
-    background-color: blue;
-    color: yellow;
-  }

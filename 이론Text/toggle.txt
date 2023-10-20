@@ -1,0 +1,4 @@
+toggle
+queryselector
+opengraph
+meta tag 페이스북을 포함한 여러 소셜 미디어 서비스에서 활용하는 메타데이터 형식인 오픈 그래프를 작성하는 코드 입니다.

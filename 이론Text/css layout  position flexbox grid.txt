@@ -1,0 +1,27 @@
+css layout  position flexbox grid
+
+normal flow
+position
+static default값
+relative 상대적 위치 원래 있어야 될공간에서 이동 
+absolute 가장 가깝게(부모 기준으로) 포지션 적용된 요소를 기준으로 위치 선정 
+ 이동후 다른 배치 요소에서는 absolute 적용된 요소는 없다고 생각함 
+ 상속할 부모의 효과(css)가 없기 때문에 width; height;와 같은 요소를 추가하지않으면 화면에서 보이지 않음 다른 글자 그림을 배치하면 생김 
+top right left bottom margin과 같이 0 0 0 0 과 같이 쓸수 있는 요소가 있는데 inset
+fixed
+sticky 
+
+
+z-index 앞뒤 우선순위
+도형이나 그림이 겹쳐보일때나 원하는 순서를 부여할때 해결 
+크면 앞쪽에 보임 
+default =0
+
+display 
+
+flex-box
+배치할 방향 flex direction
+정렬하기 justify-content, align-items
+요소가 넘칠 때 flex-wrap
+요소 간격 gap
+크기 늘이거나 줄이기 flex-grow, flex-shrink, flex-basis

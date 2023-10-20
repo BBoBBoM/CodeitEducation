@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* 공통 스타일 */
+    .container {
+      position: relative;
+      width: 400px;
+      height: 400px;
+      background-color: lightgray;
+      margin: 20px;
+    }
+
+    .box {
+      width: 100px;
+      height: 100px;
+      border: 2px solid black;
+    }
+
+    /* relative */
+    .relative-container {
+      background-color: lightgray;
+    }
+
+    .relative-box {
+      position: relative;
+      top: 20px;
+      left: 20px;
+      background-color: lightblue;
+    }
+
+    /* absolute */
+    .absolute-container {
+      background-color: lightgray;
+    }
+
+    .absolute-box {
+      position: absolute;
+      top: 50px;
+      left: 50px;
+      background-color: lightgreen;
+    }
+
+    /* fixed */
+    .fixed-box {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      background-color: lightcoral;
+    }
+
+    /* static (default) */
+    .static-box {
+      position: static;
+      background-color: lightyellow;
+    }
+  </style>
+</head>
+<body>
+  <!-- relative -->
+  <div class="container relative-container">
+    <div class="box relative-box">Relative Box 1</div>
+    <div class="box relative-box">Relative Box 2</div>
+  </div>
+
+  <!-- absolute -->
+  <div class="container absolute-container">
+    <div class="box absolute-box">Absolute Box 1</div>
+    <div class="box absolute-box">Absolute Box 2</div>
+  </div>
+
+  <!-- fixed -->
+  <div class="container fixed-box">
+    <div class="box fixed-box">Fixed Box 1</div>
+    <div class="box fixed-box">Fixed Box 2</div>
+  </div>
+
+  <!-- static (default) -->
+  <div class="container static-box">
+    <div class="box static-box">Static Box 1</div>
+    <div class="box static-box">Static Box 2</div>
+  </div>
+</body>
+</html>
