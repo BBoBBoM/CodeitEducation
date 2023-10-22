@@ -1,0 +1,56 @@
+body,
+html {
+  background-color: #f5f6f2;
+}
+
+.painting {
+  background-color: black;
+  display: grid;
+  grid-template: repeat(6, 1fr) / repeat(4, 1fr);
+  width: 460px;
+  height: 540px;
+  gap: 16px;
+  grid-template-areas:
+   "w1 r1 r1 r1"
+   "w1 r1 r1 r1"
+   "w2 r1 r1 r1"
+   "w2 r1 r1 r1"
+   "b1 w3 w3 w4"
+   "b1 w3 w3 y1"
+   ;
+}
+
+#box1 {
+  background-color: white;
+  grid-area: w1;
+}
+
+#box2 {
+  background-color: white;
+  grid-area: w2;
+}
+
+#box3 {
+  background-color: blue;
+  grid-area: b1;
+}
+
+#box4 {
+  background-color: red;
+  grid-area: r1;
+}
+
+#box5 {
+  background-color: white;
+  grid-area: w3;
+}
+
+#box6 {
+  background-color: white;
+  grid-area: w4;
+}
+
+#box7 {
+  background-color: yellow;
+  grid-area: y1;
+}
