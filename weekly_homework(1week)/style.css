@@ -16,11 +16,7 @@ body {
     gap: 8px;
     background: #FFF;
     width: 100%;
-<<<<<<< HEAD
 
-=======
-   
->>>>>>> 4e4d39e22e88147ab035277314387912f772de6c
 }
 
 a {
@@ -66,10 +62,6 @@ header div {
 }
 
 section {
-<<<<<<< HEAD
-=======
-
->>>>>>> 4e4d39e22e88147ab035277314387912f772de6c
 
 
 margin: 0;
@@ -228,13 +220,7 @@ margin: 0;
     height: 239px;
 }
 
-<<<<<<< HEAD
 
-=======
-.article-img.div1 div:nth-child(2) {
-    position: relative;
-}
->>>>>>> 4e4d39e22e88147ab035277314387912f772de6c
 
 #absolute-img {
     position: absolute;
@@ -254,7 +240,6 @@ margin: 0;
     background: #F0F6FF;
 }
 
-<<<<<<< HEAD
 .backgroundimg-div1 {
 display: flex;
 align-items: center;
@@ -279,8 +264,6 @@ align-items: center;
     border-radius: 11px;
 border: 2px solid var(--linkbrary-primary-color, #6D6AFE);
     }
-=======
->>>>>>> 4e4d39e22e88147ab035277314387912f772de6c
 .num2 img {
     width: 414px;
     height: 270px;
@@ -375,11 +358,7 @@ p {
 }
 
 .article-img.div3 {
-<<<<<<< HEAD
     background: url(indexImages/image423.png) no-repeat center;
-=======
-    background: url(indexImages/1.png) no-repeat center;
->>>>>>> 4e4d39e22e88147ab035277314387912f772de6c
     /* background-position: center; */
     background-size: 160% 130%;
 
@@ -434,7 +413,6 @@ p {
     align-items: baseline;
 }
 
-<<<<<<< HEAD
 .footer1.logo {
     display: flex;
     justify-content: center;
@@ -455,34 +433,11 @@ p {
 
 .policy {
     color: #CFCFCF;
-=======
-.footer1 {
-    display: flex;
-    justify-content: space-between;
-    flex: 1;
-}
-
-.privacy {
-    float: right;
-    text-align: right;
-}
-
-.privacy a{
-    margin-right: 12px;
-}
-
-.privacy a:last-child {
-    margin: 0;
-}
-.pre-footer{margin-bottom: 120px;}
-.policy{color: #CFCFCF;
->>>>>>> 4e4d39e22e88147ab035277314387912f772de6c
 
     font-family: Arial;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-<<<<<<< HEAD
     line-height: normal;
     gap: 30px;
 }
@@ -490,6 +445,3 @@ p {
 .policy a:last-child {
     margin-left: 30px;
 }
-=======
-    line-height: normal;}
->>>>>>> 4e4d39e22e88147ab035277314387912f772de6c
