@@ -1,0 +1,104 @@
+.container {
+
+    display: grid;
+    grid-template: 60px 350px 320px 385px 200px 200px / 1fr;
+}
+
+.red {
+    background-color: #ff0000;
+}
+
+.orange {
+    background-color: #ffa550;
+}
+
+.yellow {
+    background-color: #ffff00;
+}
+
+.green {
+    background-color: #008000;
+}
+
+.blue {
+    background-color: #0000ff;
+}
+
+.purple {
+    background-color: #4b0082;
+}
+
+@media (min-width: 768px) {
+    .container {
+
+        grid-template: 60px 562px 282px 180px 180px / repeat(2, 1fr);
+
+    }
+
+    .red {
+        grid-column: 1 / span 2;
+        grid-row: 1;
+    }
+
+    .orange {
+        grid-column: 1 / span 2;
+        grid-row: 2;
+    }
+
+    .yellow {
+        grid-column: 1 / span 2;
+        grid-row: 3;
+    }
+
+    .green {
+        grid-column: 1;
+        grid-row: 4 / span 2;
+    }
+
+    .blue {
+        grid-column: 2;
+        grid-row: 4;
+    }
+
+    .purple {
+        grid-column: 2;
+        grid-row: 5;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+
+        grid-template: 60px 350px 175px 175px / repeat(4, 1fr);
+    }
+
+    .red {
+        grid-column: 1 / span 4;
+        grid-row: 1;
+    }
+
+    .orange {
+        grid-column: 1 / span 2;
+        grid-row: 2 /span 3;
+    }
+
+    .yellow {
+        grid-column: 3 / span 2;
+        grid-row: 2;
+    }
+
+    .green {
+        grid-column: 3;
+        grid-row: 3 / span 2;
+    }
+
+    .blue {
+        grid-column: 4;
+        grid-row: 3;
+    }
+
+    .purple {
+        grid-column: 4;
+        grid-row: 4;
+    }
+}

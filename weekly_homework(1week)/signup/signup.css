@@ -8,13 +8,13 @@
 }
 
 body {
-    border: 1px solid;
+    background: #F0F6FF;
     display: flex;
 }
 
 .all-div {
     width: 1440px;
-    border: 1px solid;
+ 
     display: flex;
     flex-direction: column;
     height: 982px;
@@ -103,8 +103,9 @@ form {
 .div2-img {
     width: 16px;
     height: 16px;
-    background: url(indexImages/eye-off.png);
+    background: url(/weekly_homeworkImages/eye-off.png);
     background-size: 16px 16px;
+    background: url(/weekly_homework\(1week\)/);
 
 
 }
@@ -112,6 +113,7 @@ form {
 .input-div.div2 {
     display: flex;
     align-items: center;
+
 }
 
 .input:focus {
@@ -129,7 +131,19 @@ form {
 input:focus::placeholder {
     color: transparent;
 }
+#password-diff{margin-top: -6px;
+    color: #FF5B56;
+    /* Linkbrary/body2-regular */
+    font-family: Pretendard;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    visibility: hidden;
 
+}
+
+#password-check:focus::#password-diff{display: block;}
 #password::placeholder {
     font-size: 7px;
 
@@ -140,6 +154,30 @@ input:focus::placeholder {
 #password:focus #password::placeholder {
     color: transparent;
 }
+#password-check::placeholder {
+    font-size: 7px;
+
+    position: absolute;
+    top: 35%;
+}
+
+#password-check:focus #password::placeholder {
+    color: transparent;
+}
+
+.div3-img {
+    width: 16px;
+    height: 16px;
+    background: url(/Images/eye-off.png);
+    background-size: 16px 16px;
+
+
+}
+.div3-img:hover{cursor: pointer;}
+
+
+
+
 
 .login-button {
     color: var(--grey-light, #F5F5F5);
@@ -154,6 +192,7 @@ input:focus::placeholder {
     border: none;
     background: var(--gra-purpleblue-to-skyblue, linear-gradient(91deg, #6D6AFE 0.12%, #6AE3FE 101.84%));
     margin-bottom: 32px;
+    margin-top: 30px;
 }
 
 .login-button:hover {
@@ -189,7 +228,7 @@ input:focus::placeholder {
 }
 
 .google {
-    background: url(indexImages/google.png);
+    background: url(/Images/google.png);
     background-size: 42px 42px;
     width: 42px;
     height: 42px;
@@ -207,7 +246,7 @@ input:focus::placeholder {
 }
 
 .talk {
-    background: url(indexImages/facebook.png);
+    background: url(/Images/facebook.png);
     background-size: 42px 42px;
     width: 42px;
     height: 42px;
